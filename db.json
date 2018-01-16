@@ -42,18 +42,20 @@
       "lang": "en-US"
     }
   },
-  "redemption": {
-    "id": "genie123",
-    "redemptionInfo":{  
-      "provider":"genie-global",
-      "redemptionCode":"genie123"
-    },
-    "products":[  
-      {  
-         "amount":"20",
-         "productId":"genie-global",
-         "type":"percentage"
-      }
-    ]
-  }
+  "redemption": [
+    {
+      "id": "genie123",
+      "redemptionInfo":{  
+        "provider":"genie-global",
+        "redemptionCode":"genie123"
+      },
+      "products":[  
+        {  
+           "amount":"20",
+           "productId":"genie-global",
+           "type":"percentage"
+        }
+      ]
+    }
+  ]
 }
