@@ -1,10 +1,45 @@
 {
-  "redemption": {
-    "redemptionInfo": {
-      "id": "fake-emp-code",
-      "redemptionCode": "fake-emp-code",
-      "provider": "hsbc-employer-fake",
-      "test": "test2oeoe"
+  "activate": {
+    "id": "1",
+    "result": "success"
+  },
+  "order": {
+    "orderId": "OND44655",
+    "orderDate": "2018-01-16T02:03:58.060Z",
+    "orderStatus": "received",
+    "redemption": {
+      "redemptionCode": "OND12345",
+      "provider": "hsbc-employer"
+    },
+    "items": [
+      {
+        "productId": "onedna-hsbc-employee",
+        "quantity": 3
+      }
+    ],
+    "shipment": {
+      "firstName": "Varis",
+      "lastName": "Darasiri",
+      "address": "King's road north point"
+    },
+    "paymentTransaction": {
+      "paymentId": "stripe",
+      "transactionId": "temporaryId",
+      "amount": {
+        "original": {
+          "amount": 6000.00,
+          "currency": "hkd"
+        },
+        "actual": {
+          "amount": 12000.00,
+          "currency": "hkd"
+        }
+      }
+    },
+    "communication": {
+      "email": "john@doe.com",
+      "phoneNumber": "1234567",
+      "lang": "en-US"
     }
   }
 }
