@@ -1,8 +1,10 @@
 {
-  "activate": {
-    "id": "1",
-    "result": "success"
-  },
+  "activate": [
+    {
+      "id": "genie123",
+      "result": "success"
+    }
+  ],
   "order": {
     "orderId": "OND44655",
     "orderDate": "2018-01-16T02:03:58.060Z",
