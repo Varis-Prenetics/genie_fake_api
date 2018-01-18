@@ -63,5 +63,10 @@
         }
       ]
     }
-  ]
+  ],
+  "phoneBooking": {
+    bookingDate: "18/01/2018",
+    bookingTime: "13:00",
+    phoneNumber: "12345678"
+  }
 }
